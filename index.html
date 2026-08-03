@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rocket Labs builds practical, personality-driven software including Vector Companion and Chaos & Co." />
+  <title>Rocket Labs | Software with Personality</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Rocket Labs home">
+        <span class="brand-mark" aria-hidden="true">🚀</span>
+        <span>Rocket Labs</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Independent software studio</p>
+          <h1>Useful software.<br><span>Unmistakable personality.</span></h1>
+          <p class="hero-text">Rocket Labs creates practical tools that feel personal, approachable, and built for real life.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore our projects</a>
+            <a class="button button-secondary" href="#contact">Contact Rocket Labs</a>
+          </div>
+          <div class="hero-badges" aria-label="Rocket Labs values">
+            <span>Local-first</span>
+            <span>Human-centered</span>
+            <span>Built to grow</span>
+          </div>
+        </div>
+
+        <div class="mascot-card" aria-label="Rocket Labs mascot concept">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="mascot-emoji" aria-hidden="true">🦝</div>
+          <p class="mascot-label">Rocket</p>
+          <p class="mascot-copy">Chief builder, professional button-pusher, and official Rocket Labs raccoon.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Flagship projects</p>
+          <h2>Built for people, not manuals.</h2>
+          <p>Two focused products. One goal: make everyday work simpler and more enjoyable.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card vector-card">
+            <div class="project-topline">
+              <span class="project-icon">🤖</span>
+              <span class="status">In development</span>
+            </div>
+            <h3>Vector Companion</h3>
+            <p>An evolving AI companion platform that gives Vector more memory, personality, awareness, and autonomy.</p>
+            <ul>
+              <li>Adaptive behavior and shift-aware routines</li>
+              <li>Local memory and activity tracking</li>
+              <li>Dashboard, chat, and autonomous thoughts</li>
+            </ul>
+            <a class="text-link" href="#contact">Follow development →</a>
+          </article>
+
+          <article class="project-card chaos-card">
+            <div class="project-topline">
+              <span class="project-icon">📦</span>
+              <span class="status">In development</span>
+            </div>
+            <h3>Chaos &amp; Co.</h3>
+            <p>A lightweight business tracker for small resellers who need clear profit numbers without heavyweight inventory software.</p>
+            <ul>
+              <li>Purchase cost and sale tracking</li>
+              <li>Receipt scanning and data capture</li>
+              <li>Simple profit and performance reporting</li>
+            </ul>
+            <a class="text-link" href="#contact">Follow development →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About Rocket Labs</p>
+          <h2>Small studio. Serious ambition.</h2>
+        </div>
+        <div class="about-copy">
+          <p>Rocket Labs is an independent software studio building practical tools around real needs. Our projects begin with a problem worth solving and grow through hands-on testing, useful feedback, and steady improvement.</p>
+          <p>We believe software should be capable without feeling cold, and powerful without becoming complicated.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container contact-card">
+        <div>
+          <p class="eyebrow">Stay connected</p>
+          <h2>Rocket Labs is just getting started.</h2>
+          <p>Project updates, previews, and future downloads will appear here as Vector Companion and Chaos &amp; Co. move toward launch.</p>
+        </div>
+        <a class="button button-primary" href="mailto:hello@rocketlabs.example">Email Rocket Labs</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Rocket Labs. All rights reserved.</span>
+      <span>Built with curiosity, caffeine, and one raccoon.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
